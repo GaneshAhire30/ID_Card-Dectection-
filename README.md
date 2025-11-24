@@ -119,12 +119,12 @@ dataset/
  └── data.yaml
 
 * data.yaml Example:
-train: dataset/train/images
+{train: dataset/train/images
 val: dataset/val/images
 test: dataset/test/images
 
 nc: 1
-names: ['id_card']
+names: ['id_card']}
 
 ## Setup & Installation
 
